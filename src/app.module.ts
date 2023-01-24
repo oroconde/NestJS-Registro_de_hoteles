@@ -16,7 +16,7 @@ import { HotelsEntity } from './hotels/entities/hotel.entity';
       username: 'Bryan',
       password: '1234',
       database: 'hotels_db',
-      synchronize: true,
+      synchronize: false,
       entities: [HotelsEntity],
     }),
   ],
